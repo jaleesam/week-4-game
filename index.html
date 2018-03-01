@@ -4,17 +4,43 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../week-4-game/css/style.css">
     <link rel="reset" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <script src="javascript/game.js"></script>
   </head>
   <body>
+
+      <h1>Crystals Collector</h1>
+      <div id="instructions">
+          <p>There are four crystals images displayed on this page.</p>
+          <p>Each crystal has it’s own secret  number hidden from view. </p> 
+          <p>A random given number is shown in the box below.</p>
+          <p>Press the crystals to discover their value and try to get your number to equal to the given number.</p>
+          <p>The more you press the crystals, the higher your secret crystal number goes.</p>
+          <p>If your secret crystal number equals the given number, then you win!</p>
+          <p>If your secret crystal number becomes higher than the given number, then you lose the game.</p>
+         </div>
         <!-- creates 4 crystal buttons -->
-        <input type="image" id="green" src="../week-4-game/images/peridot.png"/>
-        <input type="image" id="purple" src="../week-4-game/images/amethyst.jpg"/>
-        <input type="image" id="blue" src="../week-4-game/images/topaz.png"/>
-        <input type="image" id="gold" src="../week-4-game/images/citrine.png"/>
+        <input type="image" id="green" class="crystal" src="images/peridot.png"/>
+        <input type="image" id="purple" class="crystal" src="images/amethyst.jpg"/>
+        <input type="image" id="blue" class="crystal" src="images/topaz.png"/>
+        <input type="image" id="gold" class="crystal" src="images/citrine.png"/>
+        
+       
+        <br>
+        <div id="wLCounter"> 
+          <p>Wins:</p>
+          <p>Loses:</p>   
+        </div>
+       
+        <br>
         
         <div id="rand"></div>
-        <div id"theCounter"></div>
+        <br>
+        <br>`
+        <h3>Your secret crystal number is:</h3>
+        <div id="theCounter"></div>
+        
+
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="javascript/game.js"></script>

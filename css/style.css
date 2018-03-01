@@ -1,21 +1,75 @@
+
+body{
+    background-image: url(../images/paper.jpg);
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+    color: teal;
+    
+}
+
+#instructions{
+    border: 3px solid teal;
+    width: 75%;
+    margin: 10px;
+    color: teal;
+    font-size: 13pt
+}
 #green {
+    margin: 10px;
     height: 150px;
     width: 150px;
 }
 #purple {
+    margin: 10px;
     height: 150px;
     width: 150px;
 }
 #blue {
+    margin: 10px;
     height: 150px;
     width: 150px;
 }
 #gold {
+    margin: 10px;
     height: 150px;
     width: 150px;
 }
 
+
+
+#wLCounter {
+    height: 80px;
+    width: 20%;
+    background-color: rgb(221, 211, 197);
+    color: teal;
+    border: 3px solid teal;
+    
+
+}
+
+
 #rand{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(248,248,248);
     font-size: 90px;
     color: teal;
+    border: 3px solid teal;
+}
+
+#theCounter{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(248,248,248);
+    color: teal;
+    border: 3px solid teal;
+    font-size: 60px;  
+}
+
+h3{
+    color:teal;
+
 }
