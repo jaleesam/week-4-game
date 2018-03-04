@@ -33,13 +33,6 @@ function start() {
 //makes number sum of button pushes add together
 
 
-
-
-
-
-
-    
-
         // $(".crystal").click(function(){    
         
         //     console.log(green);
