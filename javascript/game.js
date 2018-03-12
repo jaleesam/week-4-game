@@ -2,9 +2,10 @@ $(document).ready(function() {
     
     var wins= 0;
     var losses= 0;
+    //var counter is the # that the crystals add up to.
     var counter = 0;
     var compP;
-    compP = Math.floor(Math.random() * 101)+19;
+   
 
     var green;
     var gold;
@@ -20,7 +21,7 @@ function reset() {
     }
 
 function start() {
-
+    compP = Math.floor(Math.random() * 101)+19;
     green= Math.floor(Math.random() * 12)+1;
     gold = Math.floor(Math.random() * 12)+1;
     blue = Math.floor(Math.random() * 12)+1;
