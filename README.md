@@ -1,2 +1,13 @@
-# week-4-game
-A fun number guessing game using jquery.
+# Welcome!
+##Crystal Collector
+
+This app is a number guessing app using JQuery.
+
+The application can be found vis this link:
+https://jaleesam.github.io/week-4-game/
+
+My favorite part of making this app was creating it's simple and rustic desgin.
+
+Enjoy!
+
+
